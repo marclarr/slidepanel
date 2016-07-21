@@ -1,4 +1,4 @@
 # slidepanel
 A jQuery off-canvas framework.
 
-**WWW:*** [https://marclarr.github.io/slidepanel/](https://marclarr.github.io/slidepanel/)
+**WWW:** [https://marclarr.github.io/slidepanel/](https://marclarr.github.io/slidepanel/)
