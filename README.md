@@ -36,7 +36,7 @@ before or after the "canvas", but never inside of it.
 
 ### Data-Slidepanel
 
-You can think of the `data-slidepanel` as a function that accepts 5 parameter. However, if the panel
+You can think of the `data-slidepanel` as a function that accepts 5 parameters. However, if the panel
 your are addressing is the "canvas", data-slidepanel accepts only that single parameter. As pointed
 out above, including data-slidepanel is a requirement.
 
