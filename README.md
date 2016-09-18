@@ -9,7 +9,7 @@ A jQuery off-canvas framework.
 
 ## Setup
 
-### Include Scripts
+### Enqueue Scripts
 
 ```HTML
 <link rel="stylesheet" href="slidepanel.min.css">
@@ -34,7 +34,7 @@ before or after the "canvas", but never inside of it.
 </body>
 ```
 
-### Data-Slidepanel
+#### Data-Slidepanel
 
 You can think of the `data-slidepanel` as a function that accepts 5 parameters. However, if the panel
 your are addressing is the "canvas", data-slidepanel accepts only that single parameter. As pointed
@@ -43,8 +43,6 @@ out above, including data-slidepanel is a requirement.
 ```HTML
 <div data-slidepanel="id position animation open-duration close-duration">
 ```
-
-#### Parameters
 
 - **id:** *(required)* The name of your slidepanel. This can be any name *except* "canvas" which is
   exclusively reserved for encapsulating your website as seen in the example above.
@@ -83,7 +81,7 @@ jQuery(document).ready(function($) {
 - Within `slidepanel.init()` the `$(window).on( 'resize', _setPanelsCss );` is not working for new
   canvas size, when panel-width is in percent.
 - Panels, when switching from x to y position, show content of other panel to early.
-- Close and open functions should really only do that. Currently they are both toggling-functions.
+- Close and open functions should really only do that. Currently they are both toggle functions.
 
 ## Credits
 
