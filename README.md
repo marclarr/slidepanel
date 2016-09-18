@@ -11,9 +11,11 @@ A jQuery off-canvas framework.
 
 ### Include Scripts
 
-- slidepanel.min.css
-- jquery.js
-- jquery.slidepanel.min.js
+```HTML
+<link rel="stylesheet" href="slidepanel.min.css">
+<script src="jquery.js"></script>
+<script src="jquery.slidepanel.min.js"></script>
+```
 
 ### HTML Structure
 
@@ -38,14 +40,17 @@ You can think of the `data-slidepanel` as a function that accepts 5 parameter. H
 your are addressing is the "canvas", data-slidepanel accepts only that single parameter. As pointed
 out above, including data-slidepanel is a requirement.
 
-`data-slidepanel="id position animation open-duration close-duration"`
+```HTML
+<div data-slidepanel="id position animation open-duration close-duration">
+```
+
+#### Parameters
 
 - **id:** *(required)* The name of your slidepanel. This can be any name *except* "canvas" which is
   exclusively reserved for encapsulating your website as seen in the example above.
 - **position:** *(required)* This can be either: top, bottom, left or right. You can place multiple
-  different panels in the same position.
-- **animation:** *(required)* There are currently 4 animation types available. Set the animation
-  parameter to either: reveal, slide, overlay or shift.
+  panels in the same position.
+- **animation:** *(required)* Set the animation parameter to either: reveal, slide, overlay or shift.
 - **open-duration:** *(optional)* This is the animation speed when opening a panel in milliseconds.
   Defaults to 300.
 - **close-duration:** *(optional)* This is the animation speed when closing a panel in milliseconds.
@@ -69,15 +74,15 @@ jQuery(document).ready(function($) {
 ## Roadmap
 
 - Callback's and event's will be implemented once the plugin has matured.
-- Squeeze animation. Squeezes the panel and the canvas and shows both at the same time.
+- Squeeze animation. Squeezes the panel and canvas to show both at the same time.
 - Sass variables for bezier animation curves.
-- Open and close functions in addition to toggle.
+- Fixing the bugs.
 
 ## Bugs
 
 - Within `slidepanel.init()` the `$(window).on( 'resize', _setPanelsCss );` is not working for new
   canvas size, when panel-width is in percent.
-- Panels, when switching from x to y side, show content of other panel to early.
+- Panels, when switching from x to y position, show content of other panel to early.
 - Close and open functions should really only do that. Currently they are both toggling-functions.
 
 ## Credits
