@@ -2,7 +2,7 @@
 
 Slidepanel lets you setup unlimited off-canvas panels.
 
-#### Features
+### Features
 
 - Easy to setup
 - Only requires jQuery
