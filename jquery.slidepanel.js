@@ -1,11 +1,10 @@
-/*!
- * Slidepanel - A jQuery Framework for Off-Canvas Panels
- * Version: 0.1
- * Url: http://www.github.com/marclarr/slidepanel/
- * Author: Marc Wiest
- * Author url: http://www.marcwiest.com/
- * License: MIT
- * License url: http://www.github.com/marclarr/slidepanel/license/
+/**
+ * Slidepanel jQuery Off-Canvas Framework v1.0
+ * http://www.github.com/marclarr/slidepanel/
+ *
+ * @license
+ * Copyright 2016 Marc Wiest (https://marcwiest.com)
+ * Released under the MIT license
  */
 
 var slidepanel = (function( $, window, document ) {
