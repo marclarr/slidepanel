@@ -8,8 +8,6 @@
  * License url: http://www.github.com/marclarr/slidepanel/license/
  */
 
-// adchsm.com/slidebars/help/usage/
-
 var slidepanel = (function( $, window, document ) {
     "use strict";
 
@@ -324,32 +322,3 @@ var slidepanel = (function( $, window, document ) {
 // By default, all global objects are attached to the window object.
 // This is just here to make slidepanel's location apperant.
 window.slidepanel = slidepanel;
-
-
-///
-// Demo
-///
-
-jQuery(document).ready(function($) {
-
-    slidepanel.init();
-
-    $('.primer-panel-button').on('click',function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        slidepanel.toggle('panel');
-    });
-
-    $('.primer-drawer-button').on('click',function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        slidepanel.toggle('drawer');
-    });
-
-    $('.primer-basement-button').on('click',function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        slidepanel.toggle('basement');
-    });
-
-});
