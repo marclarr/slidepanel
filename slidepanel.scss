@@ -49,7 +49,7 @@ html, body, [data-slidepanel] {
 	height: 100%;
 	background-color: white;
     color: inherit;
-    &:after { // &:before
+    &:after {
     	clear: both;
     	content: '';
     	display: table;
@@ -99,7 +99,7 @@ html, body, [data-slidepanel] {
 }
 
 /**
- * Animation
+ * Animations
  */
 
 [data-slidepanel] {

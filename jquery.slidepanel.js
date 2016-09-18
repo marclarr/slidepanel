@@ -318,7 +318,3 @@ var slidepanel = (function( $, window, document ) {
     };
 
 })( jQuery, window, document );
-
-// By default, all global objects are attached to the window object.
-// This is just here to make slidepanel's location apperant.
-window.slidepanel = slidepanel;
