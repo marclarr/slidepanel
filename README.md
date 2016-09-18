@@ -7,7 +7,7 @@ Slidepanel lets you setup unlimited off-canvas panels.
 - Easy to setup
 - Only requires jQuery
 - Create unlimited off-canvas panels
-- 4 Panel Positions
+- 4 Panel Positions (top, right, bottom, left)
 - 4 Animation Types
 
 ## Setup
