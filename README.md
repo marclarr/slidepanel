@@ -1,10 +1,13 @@
 # Slidepanel
 
-A jQuery off-canvas framework.
+Slidepanel lets you setup unlimited off-canvas panels.
+
+#### Features
 
 - Easy to setup
 - Only requires jQuery
 - Create unlimited off-canvas panels
+- 4 Panel Positions
 - 4 Animation Types
 
 ## Setup
